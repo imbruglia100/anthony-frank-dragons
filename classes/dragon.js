@@ -10,7 +10,7 @@ class Dragon {
     return `${this.name} breathes fire everywhere! BURN!!!!`
   }
 
-  static  getDragons(...dragons){
+  static getDragons(...dragons){
    return dragons.map(ele => ele.name)
   }
 }
